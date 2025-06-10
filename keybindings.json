@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+v",
+    "command": "toggleVim",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "python ${file}\u000D"
+    },
+    "when": "editorLangId == python"
+  }
+]
